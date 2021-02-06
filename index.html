@@ -5,14 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WeatherApp</title>
-    <script src="app.js"></script>
     <link rel="stylesheet" href="css/style.css" type="text/css" />
   </head>
   <body>
     <div id="container">
+      <form>
+        <input
+          type="text"
+          placeholder="Type City and click Search ..."
+          id="myInput"
+        />
+        <button type="button" id="search">Search</button>
+      </form>
       <img id="image" /><br />
-      <div id="weatherText"></div>
-      <div class="countryText"></div>
+      <div id="weatherText">
+        <p id="temprature"></p>
+        <p id="feelsLike"></p>
+      </div>
+      <div class="countryText">
+        <p id="countryName"></p>
+      </div>
     </div>
+    <script src="app.js"></script>
   </body>
 </html>

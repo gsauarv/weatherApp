@@ -17,17 +17,38 @@
   justify-content: center;
 }
 
-p {
-  font-size: 80px;
-  letter-spacing: 3px;
-  text-align: center;
-  color: #43c87d;
-}
-
 span {
   font-size: 18px;
 }
 
 img {
   height: 150px;
+}
+
+input {
+  width: 500px;
+  height: 35px;
+  outline: none;
+  border: none;
+  margin-bottom: 40px;
+  padding-left: 20px;
+  color: black;
+}
+
+button {
+  width: 100px;
+  height: 35px;
+  outline: none;
+  border: none;
+  background-color: #43c87d;
+  color: black;
+}
+
+#temprature {
+  color: whitesmoke;
+  font-size: 60px;
+}
+
+p {
+  text-align: center;
 }
